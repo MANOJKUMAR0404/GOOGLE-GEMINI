@@ -1,7 +1,3 @@
-Sure, here's a README file for your project. It includes sections for project description, setup, usage, and contribution.
-
----
-
 # Gemini Clone
 
 ## Project Overview
