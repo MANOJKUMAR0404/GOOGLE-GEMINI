@@ -5,10 +5,8 @@ const suggestions = document.querySelectorAll(".suggestion-list .suggestion")
 const deleteButton = document.querySelector("#delete-chat")
 let usermessage = null;
 let isResponseGenerate = false;
-
 const API_KEY = "AIzaSyA3_95RuOIkAxGotPNv-VvgJwG6-Q0Xty8";
-const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${API_KEY}`;
-
+const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${API_KEY}`
 
 const localStorageData = () => {
     const savedChats = localStorage.getItem("savedChats");
